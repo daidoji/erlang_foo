@@ -1,0 +1,1 @@
+escript workout_generator.erl

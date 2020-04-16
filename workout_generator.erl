@@ -2,6 +2,8 @@
 
 -export([generate_workout/0]).
 
+main(_Args) -> generate_workout().
+
 %% Generates a workout
 generate_workout() ->
     EveryDayWorkouts = get_everyday_workouts(),
